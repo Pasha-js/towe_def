@@ -8,7 +8,8 @@ class Game:
         self.win = pygame.display.set_mode((self.width, self.height))
         self.enemys = []
         self.towers = []
-
+        self.live = 10
+        self.money = 100
 
     def run(self):
         run = True
